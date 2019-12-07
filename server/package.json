@@ -2,7 +2,7 @@
     "name": "server",
     "version": "1.0.0",
     "description": "TS, Express, React boilerplate",
-    "repository": "https://github.com/jacobwhood/V-streamY",
+    "repository": "https://github.com/jacobwhood/typescript-express-react-boilerplate",
     "license": "UNLICENSED",
     "main": "dist/app.js",
     "keywords": [],
