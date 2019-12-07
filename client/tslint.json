@@ -1,0 +1,31 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "trailing-comma": [false],
+        "quotemark": [true, "single"],
+        "no-console": false,
+        "object-literal-sort-keys": false,
+        "member-ordering": [
+            true, {
+                "order": [
+                    "public-static-field",
+                    "public-instance-field",
+                    "public-constructor",
+                    "private-static-field",
+                    "private-instance-field",
+                    "private-constructor",
+                    "public-instance-method",
+                    "protected-instance-method",
+                    "private-instance-method"
+                ]
+            }
+        ],
+        "eofline": false,
+        "no-var-requires": false
+    },
+    "rulesDirectory": []
+}
